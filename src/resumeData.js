@@ -72,9 +72,9 @@ let resumeData = {
       "url": "https://doctor-proctor.herokuapp.com/doctors/welcome"
     },
     {
-      "name":"project3",
-      "description":"mobileapp",  
-      "imgurl":""
+      "name":"Note Taker",
+      "description":"Bootcamp HW",  
+      "imgurl":"public/images/project3.png"
     },
     {
       "name":"project4",
