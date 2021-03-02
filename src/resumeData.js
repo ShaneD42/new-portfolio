@@ -1,51 +1,93 @@
 let resumeData = {
-    "imageurl":"https://media-exp1.licdn.com/dms/image/C4E03AQHZbiVhprekgg/profile-displayphoto-shrink_400_400/0/1538414442159?e=1619654400&v=beta&t=Wi3ZAYfOGf2pD3e2uNVN3FcObX-2gy3gQWERhvchgFQ",
-    "name": "Shane Daykin",
-    "role": "Full Stack Web Developer",
-    "roleDescription": " Excited to be at the beginned of my coding journey!", 
-    "social links":[  
-        {
-          "name":"linkedin",
-          "url":"https://www.linkedin.com/in/shanedaykin/",
-          "className":"fa fa-linkedin"
-        },
-        {
-          "name":"github",
-          "url":"https://github.com/ShaneD42",
-          "className":"fa fa-github"
-        }
-      ],
-    "aboutme":"I am currently learning full stack web development, with plans to begin a career in the field after graduation!",
-    "address":"3520 Edgewood Park Drive",
-
-    "portfolio":[
+  "imagebaseurl":"",
+  "name": "Shane Daykin",
+  "role": "Full Stack Developer",
+  "roleDescription": "",
+  "socialLinks":[
       {
-        "name":"project1",
-        "description":"Cocktail Curator",
-        "imgurl":"images/project1.png",
-        "deployed link:":"https://shaned42.github.io/Project-1/"
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/shanedaykin/",
+        "className":"fa fa-linkedin"
       },
       {
-        "name":"project2",
-        "description":"Doctor Proctor",
-        "imgurl":"images/portfolio/project.jpg"
+        "name":"github",
+        "url":"https://github.com/ShaneD42",
+        "className":"fa fa-github"
       },
-      {
-        "name":"project3",
-        "description":"Note Taker",  
-        "imgurl":"images/portfolio/project2.png"
-      },
-      {
-        "name":"project4",
-        "description":"Budget Tracker",
-        "imgurl":"images/portfolio/phone.jpg"
-      }
+     
     ],
-    "testimonials":[
-      {
-        "description":"Testimonials coming soon!!!"
-      },
-    ]
-  }
-  
-  export default resumeData
+  "aboutme":"I am currently finishing a coding bootcamp from Michigan State University. After completion of this course I am looking to enter into a new career in web development!",
+  "address":"Detroit, MI",
+  "website":"https://github.com/ShaneD42",
+  "education":[
+    {
+      "UniversityName":"Michigan State University",
+      "specialization":"Political Science",
+      "MonthOfPassing":"December",
+      "YearOfPassing":"2015",
+    },
+    {
+      "UniversityName":"Michigan State Coding Bootcamp",
+      "specialization":"Full Stack Web Development",
+      "MonthOfPassing":"March",
+      "YearOfPassing":"2021",
+    }
+  ],
+  "work":[
+    {
+      "CompanyName":"Dirk Edmunds Design",
+      "specialization":"General Contractor, Current Role"
+    },
+    {
+      "CompanyName":"N2M Technology",
+      "specialization":"IT Consultant/Account Manager",
+      "MonthOfLeaving":"June",
+      "YearOfLeaving":"2020",
+    }
+  ],
+  "skillsDescription":"",
+  "skills":[
+    {
+      "skillname":"HTML5"
+    },
+    {
+      "skillname":"CSS"
+    },
+    {
+      "skillname":"Reactjs"
+    }
+  ],
+  "portfolio":[
+    {
+      "name":"Cocktail Curator",
+      "description":"Project #1",
+      "imgurl":"images/project1.png",
+      "url": "https://shaned42.github.io/Project-1/"
+      
+    },
+    {
+      "name":"Doctor Proctor",
+      "description":"Project #2",
+      "imgurl":"images/project2.png",
+      "url": "https://doctor-proctor.herokuapp.com/doctors/welcome"
+    },
+    {
+      "name":"project3",
+      "description":"mobileapp",  
+      "imgurl":"images/portfolio/project2.png"
+    },
+    {
+      "name":"project4",
+      "description":"mobileapp",
+      "imgurl":"images/portfolio/phone.jpg"
+    }
+  ],
+  "testimonials":[
+    {
+      "description":"Testimonals Coming Soon!!",
+     
+    }
+  ]
+}
+
+export default resumeData
