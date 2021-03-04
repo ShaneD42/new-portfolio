@@ -74,12 +74,12 @@ let resumeData = {
     {
       "name":"Note Taker",
       "description":"Bootcamp HW",  
-      "imgurl":"public/images/project3.png"
+      "imgurl":"images/project3.png"
     },
     {
       "name":"project4",
       "description":"mobileapp",
-      "imgurl":"images/portfolio/phone.jpg"
+      "imgurl":"images/project2.png"
     }
   ],
   "testimonials":[
