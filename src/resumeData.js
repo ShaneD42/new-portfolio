@@ -66,20 +66,11 @@ let resumeData = {
       
     },
     {
-      "name":"Doctor Proctor",
-      "description":"Project #2",
-      "imgurl":"images/project2.png",
-      "url": "https://doctor-proctor.herokuapp.com/doctors/welcome"
-    },
-    {
-      "name":"Note Taker",
-      "description":"Bootcamp HW",  
-      "imgurl":"images/project3.png"
-    },
-    {
-      "name":"project4",
-      "description":"mobileapp",
-      "imgurl":"images/project2.png"
+      "name":"Cocktail Curator",
+      "description":"Project #1",
+      "imgurl":"images/project1.png",
+      "url": "https://shaned42.github.io/Project-1/"
+      
     }
   ],
   "testimonials":[
